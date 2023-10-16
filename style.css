@@ -1,0 +1,83 @@
+body {
+    background: rgb(216, 213, 213);
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(48, 45, 36);
+}
+
+h2 {
+    text-decoration: underline;
+    text-transform:uppercase;
+}
+
+a {
+    color: rgb(48, 45, 36);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline overline;
+}
+
+#name {
+    background-color: #2b251c;
+    color: #b8ab97;
+    border-radius: 5px;
+}
+
+h1 {
+    padding: 10px;
+    margin: 0;
+}
+
+#contact {
+    border-bottom: 1px solid #2b251c;
+}
+
+@media (min-width: 800px) {
+    #contact {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    #flex-container {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+.contact-item {
+    text-align: center;
+    flex-basis: 20%
+}
+
+.flex-item {
+    border: 1px solid #7a7875;
+    border-radius: 5px;
+    margin: 5px;
+    background-image: linear-gradient(160deg, rgb(187, 174, 139), rgba(255, 255, 0, 0), rgba(255, 255, 0, 0), rgba(255, 255, 0, 0), rgba(255, 255, 0, 0));
+}
+
+.flex-item div {
+    padding: 10px;
+}
+
+#item-1 {
+    flex: 2;
+}
+
+#item-2 {
+    flex: 2;
+}
+
+#item-3 {
+    flex: 1;
+}
+
+.normal-font-weight {
+    font-weight: normal;
+    color: rgba(255, 210, 151, 0.5);
+}
